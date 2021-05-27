@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Startpage</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul id="topic">
+                <li id="about">/about</li>
+                <li id="skills">/skills</li>
+                <li id="interests">/interests</li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>justinceronio:$
+                <div class="cursor">
+                    <input type="text" class="rg-form-element" onkeydown="enter(this)" placeholder="/<command>">
+                    <i></i>
+                </div>
+            </h1>
+            <h3>Hallo und Willkommen auf meiner Startseite. <br>
+                Klicke auf einen der oberen Themen oder öffne sie mit dem Terminal!
+            </h3>
+        </main>
+    </div>
+
+    <div class="hidden">
+        <div id="about-content">
+            <h2>über-mich:$ <span class="cursor"></span></h2>
+            <p>
+                Mein Name ist Justin und bin 17 Jahre alt. Ich absolviere die Lehre beim BIT als Informatiker Fachrichtung Applikationsentwicklung. Ich habe mich schon immer sehr für das Erarbeiten von kreativen Lösungswegen interessiert und wiederspiegle dies auch in meiner Arbeit. In meiner Freizeit pushe ich mich gerne etwas aus meinem Komfortbereich im Boxen oder sportlichem Training. Um mich aus kreativer Hinsicht zu fördern, nutze ich erlernte Kenntnisse aus meiner Lehre, um auch Zuhause innovative Lösungen in Form von einfachen Web-Apps bis zu verrückten Discord Bots zu erschaffen. 
+            </p>
+        </div>
+        <div id="skills-content">
+            <h2>tätigkeiten-und-kompetenzen:$ <span class="cursor"></span></h2>
+            <p>
+                Mein Aufgabengebiet variiert von Woche zu Woche und treffe daher auf verschiedenste Tools und Technologien im Alltag. Meist arbeite ich in einem Java Umfeld und beschäftige mich daher häufig mit dem Erstellen von jUnit Testfällen und dem Verbessern von bestehenden Java-Code im Rahmen der DocBox-, Input- und TARES-Projekte. Ich hatte auch schon die Gelegenheit Maven Plugins zu erstellen und in diversen Modulen einzubinden. Ich beteilige mich im Backend sowohl auch im Frontend Bereich der genannten Projekte.
+            </p>
+            <p>
+                Auflistung von eingesetzten Sprachen, Frameworks und Plattformen: <br>
+                (Umfeld BIT)
+            </p>
+            <ul class="list">
+                <li>Java</li>
+                <li>Spring Frameworks (Core/DI, MVC/REST, Security/JWT etc.)</li>
+                <li>jUnit und Mockito</li>
+                <li>Apache SOLR und Maven</li>
+                <li>Typescript</li>
+                <li>Angular</li>
+                <li>Oblique und Quadrel</li>
+                <li>Docker</li>
+                <li>PostgreSQL</li>
+            </ul>
+            <p>
+                (Umfeld Berufsschule und Freizeit)
+            </p>
+            <ul class="list">
+                <li>C#</li>
+                <li>XAML</li>
+                <li>.NET</li>
+                <li>MySQL, SQLite</li>
+                <li>MariaDB</li>
+                <li>HTML, CSS, Sass, JS</li>
+                <li>Tailwind CSS</li>
+                <li>Bootstrap</li>
+                <li>Vue.js</li>
+                <li>Node.js</li>
+                <li>Ruby on Rails</li>
+                <li>Unity</li>
+            </ul>
+            
+            <!-- TODO: Add list -->
+        </div>
+        <div id="interests-content">
+            <h2>themen-die-mich-interessieren:$ <span class="cursor"></span></h2>
+            <strong>Spielentwicklung</strong>
+            <p>
+                Die meisten die ich kenne, interessieren sich für irgendeine Art von Spiel. Doch mich hat schon immer etwas mehr den Hintergrundprozess der Videospiele fasziniert. Ich weiss noch als ich früher mit der Programmiersprache Python versucht habe ein einfaches Spiel zusammenzustellen. Als ich dann in der 9. Klasse meine Abschlussarbeit schreiben musste, habe ich die Game Engine ‘Unity’ entdeckt, in welcher sich relativ simpel einfache Spiele, mit der Sprache C#, zusammenbauen lassen. Mein erstes Projekt war ein 2D Platformer, welchen ich Ende 9. Klasse zusammen mit 20 Seiten Dokumentation abgegeben habe. 
+            </p>
+        </div>
+    </div>
+
+    <script src="js/winbox.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
